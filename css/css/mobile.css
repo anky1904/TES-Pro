@@ -1,0 +1,165 @@
+@media (max-width:1200px){
+
+.hero{
+grid-template-columns:1fr;
+}
+
+.calculator-layout{
+grid-template-columns:1fr;
+}
+
+.stats-grid{
+grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+@media (max-width:900px){
+
+.sidebar{
+left:-280px;
+transition:.3s;
+}
+
+.sidebar.show{
+left:0;
+}
+
+.main-content{
+margin-left:0;
+width:100%;
+padding:22px;
+}
+
+.topbar{
+align-items:flex-start;
+}
+
+.topbar-title h2{
+font-size:24px;
+}
+
+.hero-left{
+padding:28px;
+}
+
+.hero-left h1{
+font-size:34px;
+}
+
+.form-grid{
+grid-template-columns:1fr;
+}
+
+.button-row{
+flex-direction:column;
+}
+
+.primary-btn,
+.secondary-btn{
+width:100%;
+}
+
+}
+
+@media (max-width:640px){
+
+body{
+font-size:14px;
+}
+
+.hero-left h1{
+font-size:28px;
+}
+
+.hero-left p{
+font-size:15px;
+}
+
+.stats-grid{
+grid-template-columns:1fr;
+}
+
+.stat-card{
+padding:22px;
+}
+
+.glass-card{
+padding:22px;
+border-radius:22px;
+}
+
+.card-header h2{
+font-size:20px;
+}
+
+.result-item strong{
+font-size:22px;
+}
+
+.brand{
+margin-bottom:30px;
+}
+
+.sidebar{
+width:260px;
+}
+
+footer{
+padding:20px 10px;
+font-size:13px;
+}
+
+}
+
+@media (max-width:480px){
+
+.main-content{
+padding:16px;
+}
+
+.topbar-title h2{
+font-size:20px;
+}
+
+.hero-left{
+padding:22px;
+border-radius:22px;
+}
+
+.hero-badge{
+font-size:12px;
+padding:8px 12px;
+}
+
+.hero-card{
+padding:22px;
+border-radius:22px;
+}
+
+.stat-card p{
+font-size:22px;
+}
+
+.menu-btn{
+height:44px;
+width:44px;
+}
+
+input,
+select{
+padding:14px;
+font-size:14px;
+}
+
+.primary-btn,
+.secondary-btn{
+padding:14px 18px;
+font-size:14px;
+}
+
+.result-item{
+padding:18px;
+}
+
+}
